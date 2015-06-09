@@ -10,9 +10,11 @@
 ## install
 
 ```
-cd
-git clone git@github.com:guan/dotemacs_cask.git .emacs.d
-cd .emacs.d
-cask install
-```
+# install cask
+$ curl -fsSL https://raw.githubusercontent.com/cask/cask/master/go | python
 
+$ cd
+$ git clone git@github.com:guan/dotemacs_cask.git .emacs.d
+$ cd .emacs.d
+$ cask install
+```

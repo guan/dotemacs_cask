@@ -33,10 +33,10 @@
 ;; endや括弧などを自動挿入する
 ;; http://blog.livedoor.jp/ooboofo3/archives/53748087.html
 ;; --------------------------------------------------
-(require 'ruby-end)
-(require 'ruby-block)
-(ruby-block-mode t)
-(setq ruby-block-highlight-toggle t)
+;; (require 'ruby-end)
+;;(require 'ruby-block)
+;;(ruby-block-mode t)
+;;(setq ruby-block-highlight-toggle t)
 
 (require 'projectile)
 (projectile-global-mode)

@@ -65,7 +65,7 @@
 ;; Ruby
 (depends-on "ruby-mode")
 (depends-on "ruby-block")
-(depends-on "ruby-end")
+;; (depends-on "ruby-end")
 (depends-on "inf-ruby")
 (depends-on "rbenv")
 

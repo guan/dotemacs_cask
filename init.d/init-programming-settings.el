@@ -1,8 +1,8 @@
 (add-hook 'after-init-hook
           (lambda ()
             ;; (electric-pair-mode 1)
-            (require 'smartparens-config)
-            (smartparens-global-mode t)
+            ;; (require 'smartparens-config)
+            ;; (smartparens-global-mode t)
 
             (add-hook 'write-file-functions 'delete-trailing-whitespace)
 
@@ -10,6 +10,7 @@
             (setq electric-indent-disable-modes-list
                   '(coffee-mode
                     haml-mode
+                    jade-mode
                     slim-mode
                     latex-mode
                     python-mode
@@ -44,7 +45,7 @@
 
             (global-set-key (kbd "RET") 'newline-and-insert-newline-and-indent-after-brace)
 
-            (global-set-key (kbd "s-g") 'magit-status)
+            ;; (global-set-key (kbd "s-g") 'magit-status)
 
             ;; (require 'init-tabbar)
             (require 'init-auto-complete)

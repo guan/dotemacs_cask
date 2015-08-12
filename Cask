@@ -53,6 +53,12 @@
 (depends-on "coffee-mode")
 (depends-on "sourcemap")
 
+;; Scss
+(depends-on "scss-mode")
+
+;; Jade
+(depends-on "jade-mode")
+
 ;; Perl
 (depends-on "cperl-mode")
 
@@ -99,7 +105,7 @@
 (depends-on "helm")
 
 ;; VCS
-(depends-on "magit")
+;; (depends-on "magit")
 (depends-on "git-gutter")
 
 ;; Directory

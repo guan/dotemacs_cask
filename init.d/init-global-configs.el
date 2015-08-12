@@ -2,6 +2,9 @@
 (scroll-bar-mode -1)
 (global-linum-mode t)
 
+(setq make-backup-files nil)
+(setq auto-save-default nil)
+
 (add-hook 'after-init-hook
           (lambda ()
             (require 'server)

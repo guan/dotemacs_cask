@@ -166,8 +166,10 @@
 (depends-on "eshellutil" :git "https://github.com/syohex/emacs-eshellutil.git")
 (depends-on "syohex-theme" :git "https://github.com/syohex/emacs-syohex-theme.git")
 
-;; zenburn
+;; themes
 (depends-on "zenburn-theme")
+(depends-on "cyberpunk-theme")
+(depends-on "clues-theme")
 
 ;; projectile
 

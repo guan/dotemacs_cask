@@ -57,8 +57,7 @@
     undo-tree
     undohist
     yasnippet
-    yaml-mode
-    zenburn-theme))
+    yaml-mode))
 
 (let ((not-installed (loop for x in installing-package-list
 			   when (not (package-installed-p x))

@@ -5,11 +5,15 @@
 
 (require 'init-global-configs)
 (require 'init-fonts)
-;(require 'init-face)
+
+
+
+;; (require 'init-face)
 (require 'init-programming-settings)
 
 ;; theme
-(load-theme 'zenburn t)
+;; (load-theme 'zenburn t)
+(load-theme 'cyberpunk t)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -23,5 +27,3 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
-
-

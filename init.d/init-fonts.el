@@ -3,7 +3,7 @@
 ;; https://github.com/yascentur/Ricty
 (set-face-attribute 'default nil
                     :family "Ricty Discord"
-                    :height 95)
+                    :height 120)
 (set-fontset-font (frame-parameter nil 'font)
                   'japanese-jisx0208
                   (cons "Ricty Discord" "iso10646-1"))

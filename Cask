@@ -172,6 +172,8 @@
 (depends-on "clues-theme")
 
 ;; projectile
-
 (depends-on "projectile")
 (depends-on "projectile-rails")
+
+;; elixir
+(depends-on "elixir-mode")

@@ -57,6 +57,7 @@
             (require 'init-css)
             (require 'init-ruby)
             (require 'init-tex)
+            (require 'init-elixir)
             (require 'init-programming-contest)))
 
 (provide 'init-programming-settings)

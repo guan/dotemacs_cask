@@ -177,3 +177,8 @@
 
 ;; elixir
 (depends-on "elixir-mode")
+(depends-on "alchemist")
+
+;; js
+
+(depends-on "js2-mode")

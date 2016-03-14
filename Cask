@@ -178,7 +178,9 @@
 ;; elixir
 (depends-on "elixir-mode")
 (depends-on "alchemist")
+(depends-on "ac-alchemist")
 
 ;; js
-
 (depends-on "js2-mode")
+(depends-on "tern")
+(depends-on "tern-auto-complete")

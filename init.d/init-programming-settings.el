@@ -18,12 +18,12 @@
             (add-hook 'after-change-major-mode-hook
                       (lambda ()
                         (cond ((memq major-mode electric-indent-disable-modes-list)
-                               (electric-indent-mode -1)
+                               (electric-indent-mode 1)
                                (local-set-key (kbd "RET") 'newline-and-indent))
                               (t
                                (electric-indent-mode 1)))))
 
-            (global-flycheck-mode 1)
+            ;;(global-flycheck-mode 1)
 
             (setq-default indent-tabs-mode nil)
             (add-hook 'makefile-mode-hook

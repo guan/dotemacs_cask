@@ -1,6 +1,6 @@
 
 (require 'css-mode)
-(require 'scss-mode)
+;;(require 'scss-mode)
 
 (add-hook 'css-mode-hook
           (lambda ()

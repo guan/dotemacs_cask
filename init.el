@@ -1,12 +1,31 @@
 (require 'cask "~/.cask/cask.el")
 (cask-initialize)
 
+(electric-indent-mode 1)
+
 (add-to-list 'load-path "~/.emacs.d/init.d/")
+
+(windmove-default-keybindings)
+
+(global-set-key (kbd "C-c C-g C-j") 'buf-move-left)
+(global-set-key (kbd "C-c C-g C-m") 'buf-move-down)
+(global-set-key (kbd "C-c C-g C-n") 'buf-move-down)
+(global-set-key (kbd "C-c C-g C-i") 'buf-move-up)
+(global-set-key (kbd "C-c C-g C-l") 'buf-move-right)
+
+(global-set-key (kbd "C-c <left>")  'windmove-left)
+(global-set-key (kbd "C-c <down>")  'windmove-down)
+(global-set-key (kbd "C-c <up>")    'windmove-up)
+(global-set-key (kbd "C-c <right>") 'windmove-right)
+
+(global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
+
+(global-set-key (kbd "C->") 'mc/mark-next-like-this)
+(global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
+(global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
 
 (require 'init-global-configs)
 (require 'init-fonts)
-
-
 
 ;; (require 'init-face)
 (require 'init-programming-settings)

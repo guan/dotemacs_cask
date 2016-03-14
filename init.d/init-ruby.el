@@ -6,10 +6,10 @@
 (add-to-list 'interpreter-mode-alist '("ruby" . ruby-mode)) ;; shebangがrubyの場合、ruby-modeを開く
 
 
-(require 'rbenv)
-(global-rbenv-mode)
+;; (require 'rbenv)
+;; (global-rbenv-mode)
 
-(setq rbenv-installation-dir "~/.rbenv")
+;; (setq rbenv-installation-dir "~/.rbenv")
 
 ;; ruby-modeのインデントを改良する
 (setq ruby-deep-indent-paren-style nil)

@@ -69,11 +69,11 @@
                     try-complete-lisp-symbol))
             (global-set-key (kbd "C-.") 'hippie-expand)
 
-            (require 'smooth-scrolling)
+            ;; (require 'smooth-scrolling)
 
-            (when (require 'smooth-scroll nil t)
-              (smooth-scroll-mode t)
-              (setq smooth-scroll/vscroll-step-size 4))
+            ;; (when (require 'smooth-scroll nil t)
+            ;;   (smooth-scroll-mode t)
+            ;;   (setq smooth-scroll/vscroll-step-size 4))
 
             (when (package-installed-p 'exec-path-from-shell)
               (when (memq window-system '(mac ns))

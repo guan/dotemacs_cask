@@ -162,7 +162,7 @@
 (depends-on "mozc")
 
 ;; own repository
-(depends-on "editutil" :git "https://github.com/syohex/emacs-editutil.git")
+;; (depends-on "editutil" :git "https://github.com/syohex/emacs-editutil.git")
 (depends-on "eshellutil" :git "https://github.com/syohex/emacs-eshellutil.git")
 (depends-on "syohex-theme" :git "https://github.com/syohex/emacs-syohex-theme.git")
 

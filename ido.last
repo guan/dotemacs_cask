@@ -1,0 +1,67 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/" . "Users/")
+ ("/Users/" . "guan/")
+ ("/Users/guan/.emacs.d/" . "init.d/")
+ ("/Users/guan/Projects/tringle/g-summit/app/" . "models/")
+ ("/Users/guan/Projects/tringle/g-summit/" . "app/")
+ ("/Users/guan/Projects/tringle/kikkoman-server/app/" . "controllers/")
+ ("/Users/guan/Projects/tringle/kikkoman-server/" . "app/")
+ ("/Users/guan/Projects/tringle/" . "kikkoman-server/")
+ ("/Users/guan/Projects/" . "tringle/")
+ ("/Users/guan/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/guan/.emacs.d/init.d/"
+ "/Users/guan/Projects/tringle/kikkoman-server/app/controllers/"
+ "/Users/guan/"
+ "/Users/guan/Projects/tringle/kikkoman-server/app/models/"
+ "/Users/guan/Projects/tringle/g-summit/app/models/"
+ "/Users/guan/Projects/tringle/kikkoman-server/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init-fonts.el"
+ "application_controller.rb"
+ ".emacs"
+ "application_record.rb"
+ "reporter.rb"
+ "Gemfile"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/guan/Projects/tringle/kikkoman-server/app/controllers/" (22868 25244 0 0) "concerns/" "application_controller.rb" "../" "./")
+
+ ("/Users/" (22843 65256 0 0) "Shared/" "Guest/" "guan/" ".localized" "../" "./")
+
+ ("/Users/guan/.emacs.d/" (22868 51852 0 0) "var/" "README.md" "projectile-bookmarks.eld" "init.el" "init.d/" "ido.last" "history" "Cask" "auto-save-list/" "ac-comphist.dat" ".gitignore" ".git/" ".cask/" "../" "./")
+
+ ("/Users/guan/.emacs.d/init.d/" (22868 51771 0 0) "init-tex.el" "init-tabbar.el" "init-sh.el" "init-ruby.el" "init-programming-settings.el" "init-programming-contest.el" "init-packages.el" "init-js.el" "init-helm.el" "init-haml.el" "init-global-configs.el" "init-fonts.el" "init-face.el" "init-elixir.el" "init-css.el" "init-cc.el" "init-auto-complete.el" "../" "./")
+
+ ("/Users/guan/Projects/tringle/g-summit/app/models/" (22856 60573 0 0) "work.rb" "topic.rb" "shop_image.rb" "shop.rb" "settings.rb" "review.rb" "reporter_image.rb" "reporter.rb" "favorite.rb" "concerns/" "category.rb" "book.rb" "application_record.rb" "admin.rb" "../" "./")
+
+ ("/Users/guan/Projects/tringle/g-summit/app/" (22845 53496 0 0) "views/" "uploaders/" "models/" "mailers/" "jobs/" "helpers/" "controllers/" "channels/" "cells/" "assets/" ".DS_Store" "../" "./")
+
+ ("/Users/guan/Projects/tringle/g-summit/" (22849 62194 0 0) "wp/" "vendor/" "tmp/" "spec/" "script/" "README.md" "Rakefile" "public/" "Procfile.dev" "Procfile" "log/" "lib/" "latest.dump" "heroku/" "Gemfile.lock" "Gemfile" "Dockerfile.dev" "docker-compose.yml" "design/" "db/" "config.ru" "config/" "circle.yml" "browserslist" "bin/" "app.json" "app/" ".ruby-version" ".rspec" ".idea/" ".hound.yml" ".gitignore" ".git/" ".env.dev.sample" ".env.dev" ".DS_Store" ".ctags" "../" "./")
+
+ ("/Users/guan/Projects/tringle/kikkoman-server/app/models/" (22868 25244 0 0) "concerns/" "application_record.rb" "../" "./")
+
+ ("/Users/guan/Projects/tringle/kikkoman-server/app/" (22868 25244 0 0) "views/" "models/" "mailers/" "jobs/" "helpers/" "controllers/" "channels/" "assets/" "../" "./")
+
+ ("/Users/guan/Projects/tringle/kikkoman-server/" (22868 25922 0 0) "vendor/" "tmp/" "spec/" "script/" "README.md" "Rakefile" "public/" "Procfile" "log/" "lib/" "Gemfile.lock" "Gemfile" "Dockerfile.dev" "docker-compose.yml" "db/" "config.ru" "config/" "circle.yml" "browserslist" "bin/" "app.json" "app/" ".ruby-version" ".rspec" ".idea/" ".hound.yml" ".gitignore" ".git/" ".env.dev.sample" ".env.dev" ".env" ".ctags" "../" "./")
+
+ ("/Users/guan/Projects/tringle/" (22868 25622 0 0) "yasaijuice-ranking.com/" "tdmp-platform/" "tateho/" "static_website_base/" "kikkoman-server/" "instabot_guan/" "instabot.py/" "instabot.guan/" "himeji_lp/" "gs_renewal/" "g-summit/" ".DS_Store" "../" "./")
+
+ ("/Users/guan/Projects/" (22868 23910 0 0) "tringle/" "mythos/" "guan/" "data_analytics/" "cloud9/" ".DS_Store" "../" "./")
+
+ ("/Users/guan/" (22868 51397 0 0) "RubymineProjects/" "Public/" "Projects/" "Pictures/" "Music/" "Movies/" "Library/" "IdeaProjects/" "Downloads/" "Documents/" "Desktop/" "Applications/" ".viminfo" ".Trash/" ".subversion/" ".ssh/" ".rbenv/" ".oracle_jre_usage/" ".npm/" ".nodebrew/" ".node_repl_history" ".netrc" ".local/" ".gradle/" ".gitconfig" ".gem/" ".emacs~" ".emacs.d/" ".emacs" ".electron/" ".ecs/" ".DS_Store" ".docker/" ".cups/" ".config/" ".CFUserTextEncoding" ".cask/" ".cache/" ".bundle/" ".bashrc" ".bash_sessions/" ".bash_profile" ".bash_history" ".aws/" ".atom/" ".ansible/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

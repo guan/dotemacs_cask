@@ -9,7 +9,9 @@
 ;;   ;; (set-face-background 'region "#1B1B1B")
 ;;   )
 
-(load-theme 'cyberpunk t)
+;;(load-theme 'cyberpunk t)
+(load-theme 'deeper-blue t)
+;;(load-theme 'misterioso t)
 
 (setq default-frame-alist
       (append '((alpha . 80)) default-frame-alist))

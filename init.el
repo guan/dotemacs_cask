@@ -32,7 +32,9 @@
 
 ;; theme
 ;; (load-theme 'zenburn t)
-(load-theme 'cyberpunk t)
+;; (load-theme 'cyberpunk t)
+(load-theme 'deeper-blue t)
+;; (load-theme 'misterioso t)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.

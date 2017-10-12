@@ -70,6 +70,7 @@
 
 ;; Ruby
 (depends-on "ruby-mode")
+(depends-on "slim-mode")
 (depends-on "ruby-block")
 ;; (depends-on "ruby-end")
 (depends-on "inf-ruby")
